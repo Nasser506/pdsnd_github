@@ -8,7 +8,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'washington': 'washington.csv'}
 
 
-# this function is to select the filters to be applied
+# this function is to select the filters to be applied it's very important
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -23,7 +23,7 @@ def get_filters():
     # inputs Take the inputs from the user
     city = input("\nPlease enter a city from the following: 1.chicago 2.new york city 3.washington\n").lower()
 
-    # while loop to make sure that the user entered the correct name of city
+    # while loop to make sure that the user entered the correct name of city (option)
     while (city not in CITY_DATA.keys()):
         city = input("\nPlease enter a city from the following: 1.chicago 2.new york city 3.washington\n").lower()
 
