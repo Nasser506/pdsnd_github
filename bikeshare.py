@@ -6,7 +6,8 @@ import numpy as np
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
-
+#this change is made for github project to add commit .
+Myname ="Nasser" 
 
 # this function is to select the filters to be applied it's very important
 def get_filters():
