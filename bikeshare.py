@@ -6,14 +6,12 @@ import numpy as np
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
-#this change is made for github project to add commit .
-Myname ="Nasser" 
+myName="Nasser ALabdullah"
 
-# this function is to select the filters to be applied it's very important
+# this function is to select the filters to be applied
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
-
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -24,7 +22,7 @@ def get_filters():
     # inputs Take the inputs from the user
     city = input("\nPlease enter a city from the following: 1.chicago 2.new york city 3.washington\n").lower()
 
-    # while loop to make sure that the user entered the correct name of city (option)
+    # while loop to make sure that the user entered the correct name of city
     while (city not in CITY_DATA.keys()):
         city = input("\nPlease enter a city from the following: 1.chicago 2.new york city 3.washington\n").lower()
 
@@ -56,7 +54,6 @@ def get_filters():
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
-
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -228,7 +225,6 @@ def user_stats(df):
 def display_raw_data(city):
     """Show 5 records from the selected city.
     Asks user to type if he wants to show raw data or not
-
     Args:
         (df): the data frame of the selected city.
     Returns:
