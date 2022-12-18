@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .github/**
 # Ignored files
 .DS_Store
@@ -5,3 +6,10 @@
 chicago.csv
 washington.csv
 new_york_city.csv
+||||||| 237c238
+.github/**
+=======
+[user]
+    name = Nasser ALabdullah
+    email = ksa69846@gmail.com
+>>>>>>> documentation
