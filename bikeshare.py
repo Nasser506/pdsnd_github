@@ -6,7 +6,7 @@ import numpy as np
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
-
+myName="Nasser ALabdullah"
 
 # this function is to select the filters to be applied
 def get_filters():
